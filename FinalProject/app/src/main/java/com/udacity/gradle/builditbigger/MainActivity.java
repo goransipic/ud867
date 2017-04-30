@@ -9,6 +9,8 @@ import android.widget.Toast;
 
 import com.example.Jokes;
 
+import hr.asseco.android.jokeandroid.TellMeActivity;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        Toast.makeText(this, Jokes.getJoke(), Toast.LENGTH_SHORT).show();
+        TellMeActivity.startIntent(this,Jokes.getJoke());
     }
 
 
