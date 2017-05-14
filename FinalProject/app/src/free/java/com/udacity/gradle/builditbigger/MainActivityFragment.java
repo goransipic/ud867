@@ -9,6 +9,9 @@ import android.view.ViewGroup;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
+/**
+ * Created by gsipic on 14.5.2017..
+ */
 
 /**
  * A placeholder fragment containing a simple view.
