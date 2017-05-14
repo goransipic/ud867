@@ -1,6 +1,7 @@
 package com.udacity.gradle.builditbigger;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -8,6 +9,8 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.Jokes;
+import com.hannesdorfmann.mosby3.mvp.MvpActivity;
+import hr.asseco.android.jokeandroid.buisnesslogic.JokesInteractor;
 
 import hr.asseco.android.jokeandroid.TellMeActivity;
 
